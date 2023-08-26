@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+</head>
+<style>
+    
+    button{
+        margin-left: 45px;
+        width: 300px;
+     
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        background-image: linear-gradient(to right,#45A4DD,#334FC2);
+        border: none;
+        animation: bounce 0.5s infinite alternate;
+    }
+    body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        animation: back 2s infinite alternate;
+      }
+    a{
+        font-style: none;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    @keyframes bounce {
+        From {
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        to {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+    @keyframes back{
+        from{
+            background-image: linear-gradient(to right , rgb(73, 239, 73) ,rgb(139, 247, 139),rgb(243, 245, 233));
+        }
+        to{
+            background-image: linear-gradient(to right , rgb(229, 248, 229) ,rgb(139, 247, 139),rgb(65, 237, 65));
+        }
+    }
+</style>
+<body>
+    <button><a href="https://www.pwskills.com">Click Me to Visit PW Skills</a></button>
+</body>
+</html>
